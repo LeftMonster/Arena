@@ -19,6 +19,13 @@
 3. 补国服官方中文名；
 4. 标注 source、patch、confidence、current_status。
 
+当前完整性边界：
+
+- Riot 官网确认当前基线：59 个；
+- 这 59 个不是已证明的“全部当前池”；
+- 还需要用客户端 tooltip、CDragon 候选和必要时真机浏览器采集来复核完整性；
+- 详细采集策略见根目录 `DataAcquisition_Plan.md`。
+
 查询规则：
 
 - 当前版本分析优先读 `Database.md`。

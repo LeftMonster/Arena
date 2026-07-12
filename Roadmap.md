@@ -32,6 +32,13 @@
 - 补 tier、augment type、current status；
 - 把官网只有名称的条目补成可查询记录。
 
+采集路径：
+
+- 优先使用 CDragon / 客户端静态数据；
+- 静态数据不足时，使用正式服客户端截图或真机浏览器采集；
+- 如遇网页反爬、JS 渲染、登录态或地区化限制，可使用用户提供的去爬虫特征自动化浏览器；
+- 详细策略见 `DataAcquisition_Plan.md`。
+
 ---
 
 # Phase 3: Ability Class And Ability Augments

@@ -42,6 +42,12 @@ ARAM: Mayhem 海克斯官网采集索引：
 - Ability Augment 英雄技能映射；
 - 当前是否仍在池内。
 
+数据采集升级路线：
+
+- `DataAcquisition_Plan.md`
+
+当 Riot 官网、CDragon、静态文件不足以还原 tooltip 或当前池时，可以升级到正式服客户端/真机浏览器/去特征自动化浏览器采集，但采集结果必须保留原始证据和来源标记。
+
 ---
 
 # Candidate Community Data Sources
