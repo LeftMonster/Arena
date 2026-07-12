@@ -4,6 +4,35 @@
 
 日期：2026-07-13
 
+研究主题：旧外部上下文目录迁移审计
+
+资料来源：
+
+- `E:\github\tmp\LoL_Mechanics_Project_Latest_v3`
+
+结论：
+
+- 已新增 `logs/MigrationAudit_LoL_Mechanics_Project_Latest_v3.md`；
+- 已从旧上下文迁入 `skill/AbilityClass.md`；
+- 已从旧上下文迁入 `skill/OnHitModel.md`；
+- 已把机制术语补入 `TERMINOLOGY.md`；
+- 旧官方海克斯库、采集规范、模板、日志和标准文档大多已被当前项目覆盖，不建议整篇重复搬入。
+
+新增开放问题：
+
+- 是否需要把 `skill/OnHitModel.md` 中的实验编号展开为独立实验文档；
+- 是否需要给 `augments/AramMayhem_AlignedData.csv` 增加机制标签列。
+
+需要实验：
+
+- Mystic Punch、Dusk and Dawn、Ethereal Weapon 与 Apply Count 的组合实验仍为高优先级。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：ARAM Mayhem 当前海克斯字段和效果对齐
 
 资料来源：
