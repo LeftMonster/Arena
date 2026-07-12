@@ -52,6 +52,19 @@ ARAM: Mayhem 海克斯官网采集索引：
 
 # Candidate Community Data Sources
 
+## Chinese secondary sources
+
+中文资料可以作为二级/三级交叉验证来源，尤其用于：
+
+- 补中文效果描述；
+- 发现漏收条目；
+- 对照国服俗称和官方中文名；
+- 查旧攻略/旧视频中的历史机制来源。
+
+但中文攻略站、论坛、视频文案不能直接作为官方事实。详细策略：
+
+- `ChineseSecondarySources_Plan.md`
+
 ## Meraki lolstaticdata
 
 URL:

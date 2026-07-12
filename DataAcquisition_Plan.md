@@ -50,6 +50,12 @@
 - CDragon raw files
 - 后续可能加入 DataDragon / Meraki / League Wiki 交叉验证
 
+中文二级来源：
+
+- 中文 Wiki / 数据站 / 攻略站 / 社区帖可作为补充检索层；
+- 使用精确中文名、英文名、NameId 组合检索；
+- 详细策略见 `ChineseSecondarySources_Plan.md`。
+
 当前状态：
 
 - 已使用 CDragon `cherry-augments.json` 匹配 58/59 个当前池中文名；
