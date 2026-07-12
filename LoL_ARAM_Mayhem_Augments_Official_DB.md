@@ -423,6 +423,19 @@
 
 # 9. 下一阶段计划
 
+## 第 1.5 阶段：官网源索引
+
+已新增独立源索引：
+
+- `Augments_Official_Source_Index.md`
+
+用途：
+
+- 记录 Riot 官网补丁说明中出现过的全部 Mayhem augment 条目；
+- 区分“当前 26.13 Riot 已确认池”“26.12 已移除”“历史出现但当前需复核”；
+- 记录每个条目的来源补丁、官方文本完整度、后续补全文本优先级；
+- 作为后续机器可查询表的底稿。
+
 ## 第 2 阶段：回溯官方补丁
 
 继续检索拳头官网：
@@ -457,3 +470,10 @@
 - 加入 26.13 当前调整；
 - 整理 Ability Augment、Quest Augment 官方定义；
 - 初步记录 Archmage、Overloaded、Multishot、Quickstep、Chain Reaction、Hellbent、Rite of Ascension。
+
+## v0.2
+
+- 新增 `Augments_Official_Source_Index.md`；
+- 从 Riot 官网补丁说明整理 25.21、25.22、25.23、25.24、26.3、26.8、26.9、26.10、26.11、26.12、26.13 的 Mayhem augment 相关记录；
+- 建立 26.13 当前 Riot 官网确认池、26.12 移除池、历史出现但当前需客户端复核池；
+- 明确 Riot 官网不提供完整当前 tooltip 数据，后续必须接正式服客户端文本或维护数据库补全。
