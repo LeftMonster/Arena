@@ -8,9 +8,18 @@
 4. Official client text / screenshots
 5. Community League Wiki / maintained databases
 6. Experiments
-7. Theory
+7. Reddit / forum / video discovery leads
+8. Theory
 
 社区资料只能作为补充来源，不能覆盖 Riot 官方事实。理论必须明确标记，不得和官方结论混写。
+
+证据标记：
+
+- 🟢 Riot 官方；
+- 🟡 CommunityDragon / League Wiki / 多来源一致；
+- 🟠 ARAM Mayhem / 社区数据库；
+- ⚗ 游戏内实验验证；
+- 🔴 理论推导或待验证假设。
 
 ---
 
@@ -193,3 +202,21 @@ URL:
 详细接入计划：
 
 - `DataSource_MerakiStaticData_Plan.md`
+
+## Reddit / Forum / Video Leads
+
+Tier:
+
+- Tier D discovery only
+
+Use:
+
+- 发现特殊交互、BUG、热门疑问和实验方向；
+- 收集可能遗漏的机制问题；
+- 辅助设计实验。
+
+Notes:
+
+- 不能作为最终机制结论；
+- 不能覆盖 Riot、客户端、League Wiki 或实验结果；
+- 若进入项目文档，必须标记为 discovery lead / 待验证，并转化为 Open Question 或 Experiment。

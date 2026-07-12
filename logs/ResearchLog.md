@@ -4,6 +4,35 @@
 
 日期：2026-07-13
 
+研究主题：Event Tree 与 Source 外部补充文档迁移
+
+资料来源：
+
+- `E:\github\tmp\EventTree_v1.md`
+- `E:\github\tmp\SOURCES_v1.md`
+
+结论：
+
+- 已把普通攻击事件链、技能事件链、监听器检查点和扩展事件补入 `skill/EventTree.md`；
+- 已把 Reddit / forum / video discovery lead 的定位补入 `SOURCES.md`；
+- 已把实验验证标记补入 `standards/ConfidenceSystem.md`；
+- 两份外部文档内容与当前项目方向一致，但不需要作为独立文件原样导入。
+
+新增开放问题：
+
+- Critical Check、Projectile Split、Proc Chain、Cooldown Listener、Death Check、On Kill Effects 需要逐步拆成更细模型；
+- Mystic Punch、Phenomenal Evil、Quest 等监听器需要按事件类型建立索引。
+
+需要实验：
+
+- 先围绕 Mystic Punch / Dusk and Dawn / Ethereal Weapon 验证监听事件和 Apply Count。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：旧外部上下文目录迁移审计
 
 资料来源：
