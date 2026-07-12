@@ -41,6 +41,35 @@
 
 日期：2026-07-13
 
+研究主题：Meraki lolstaticdata 数据源评估
+
+资料来源：
+
+- https://github.com/meraki-analytics/lolstaticdata
+- Meraki CDN champions/items JSON 入口说明
+
+结论：
+
+- Meraki lolstaticdata 对英雄技能和物品结构化数据有帮助；
+- 不适合作为海克斯当前池/官方 tooltip 主数据源；
+- 建议作为 Tier C community structured source 纳入，辅助 Event Tree、Hero Archive、装备机制研究。
+
+新增开放问题：
+
+- Meraki 当前 JSON 是否覆盖 Arena/ARAM Mayhem 特殊物品；
+- champions JSON 字段是否足够支持 Ability Class 自动候选分类；
+- 是否需要建立快照缓存以避免 `latest` 漂移。
+
+需要实验：
+
+- 先用 Master Yi、Gangplank、Corki 三个英雄做字段质量验证。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：历史海克斯数据库拆分
 
 资料来源：

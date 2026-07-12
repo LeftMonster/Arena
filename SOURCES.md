@@ -41,3 +41,24 @@ ARAM: Mayhem 海克斯官网采集索引：
 - 当前 tier；
 - Ability Augment 英雄技能映射；
 - 当前是否仍在池内。
+
+---
+
+# Candidate Community Data Sources
+
+## Meraki lolstaticdata
+
+URL:
+
+- https://github.com/meraki-analytics/lolstaticdata
+
+本项目定位：
+
+- Tier C community structured source；
+- 适合 champion ability data 和 item data；
+- 可辅助 `heroes/`、`skill/EventTree.md`、装备机制研究；
+- 不作为 ARAM: Mayhem Augments 当前池或官方 tooltip 的主数据源。
+
+详细接入计划：
+
+- `DataSource_MerakiStaticData_Plan.md`
