@@ -47,6 +47,8 @@
 来源：
 
 - CommunityDragon
+- ARAM Mayhem Augments Database
+- League Wiki
 - CDragon raw files
 - 后续可能加入 DataDragon / Meraki / League Wiki 交叉验证
 
@@ -60,6 +62,7 @@
 
 - 已使用 CDragon `cherry-augments.json` 匹配 58/59 个当前池中文名；
 - 已发现 18 个 CDragon 候选项，需判断是历史残留、重命名还是漏收。
+- 已登记 arammayhem.com/augments 作为当前池完整性复核源；该页声称当前共有 199 个强化符文。
 
 限制：
 

@@ -30,6 +30,118 @@ ARAM: Mayhem 海克斯官网采集索引：
 
 ---
 
+# Registered Data Sources
+
+## Riot Games Official News / Patch Notes / Dev Blog
+
+URL:
+
+- https://www.leagueoflegends.com/en-us/news/
+
+Tier:
+
+- Tier A
+
+Use:
+
+- 官方补丁说明；
+- 官方开发者文章；
+- 系统机制、增删改、版本变更；
+- 当前所有结论的最高优先级来源。
+
+Notes:
+
+- 这是第一数据源；
+- 若 Riot 与社区/客户端镜像冲突，优先保留 Riot 说法，并标记客户端差异待复核。
+
+## ARAM Mayhem Augments Database
+
+URL:
+
+- https://arammayhem.com/augments/
+- https://arammayhem.com/zh-cn/augments/
+
+Tier:
+
+- Tier C maintained community database
+
+Use:
+
+- 当前海克斯池完整性复核；
+- 中文名/英文名对照；
+- 胜率、登场率、顶级英雄等统计；
+- 已移除条目和历史条目对照；
+- 和 CDragon / Riot 官网交叉验证漏收项。
+
+Current observation:
+
+- 页面声称 ARAM: Mayhem 当前共有 199 个强化符文；
+- 分布为 69 棱彩、74 金色、56 银色；
+- 已移除 56；
+- 数据更新时间显示为 7月10日。
+
+Notes:
+
+- 这是非常重要的当前池候选源，但不是 Riot 官方；
+- 不能直接覆盖 Riot 官网或正式服客户端；
+- 后续需要抓取其完整表格，与 `augments/CurrentAugments_CN_Effects.md` 和 CDragon 对齐。
+
+## CommunityDragon
+
+URL:
+
+- https://communitydragon.org/
+- https://raw.communitydragon.org/
+
+Tier:
+
+- Tier B/C client mirror
+
+Use:
+
+- 客户端静态数据；
+- zh_cn 本地化名称；
+- internal ID / NameId / rarity；
+- 候选条目发现；
+- 客户端 tooltip/stringtable 复核。
+
+Current files used:
+
+- `plugins/rcp-be-lol-game-data/global/default/v1/cherry-augments.json`
+- `plugins/rcp-be-lol-game-data/global/zh_cn/v1/cherry-augments.json`
+- `game/zh_cn/data/menu/en_us/lol.stringtable.json`
+
+Notes:
+
+- CDragon 是客户端数据镜像，不等同 Riot 官网；
+- 可能包含历史残留、未启用内容、其他模式内容；
+- 适合做客户端侧复核和候选发现。
+
+## League Wiki
+
+URL:
+
+- https://wiki.leagueoflegends.com/en-us/
+
+Tier:
+
+- Tier C maintained community wiki
+
+Use:
+
+- 英雄技能机制；
+- item / augment / mode 机制解释；
+- 历史版本和 patch 追溯；
+- 与 Meraki / CDragon / Riot patch 交叉验证。
+
+Notes:
+
+- 不能作为 Riot 官方事实；
+- 适合作为机制解释、历史追溯和字段理解来源；
+- 进入主库时必须保留页面 URL、版本信息和检索日期。
+
+---
+
 # Known Limitation
 
 截至 2026-07-13，Riot 官网没有提供“当前全部海克斯池 + 完整 tooltip”的单页数据库。

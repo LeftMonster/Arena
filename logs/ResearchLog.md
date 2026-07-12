@@ -41,6 +41,40 @@
 
 日期：2026-07-13
 
+研究主题：核心数据源登记补齐
+
+资料来源：
+
+- https://www.leagueoflegends.com/en-us/news/
+- https://arammayhem.com/augments/
+- https://communitydragon.org/
+- https://wiki.leagueoflegends.com/en-us/
+
+结论：
+
+- 已将 Riot Games Official News / Patch Notes / Dev Blog 登记为 Tier A 第一数据源；
+- 已将 ARAM Mayhem Augments Database 登记为 Tier C maintained community database；
+- arammayhem.com/augments 页面声称当前共有 199 个强化符文，分布为 69 棱彩、74 金色、56 银色，并显示已移除 56；
+- 已将 CommunityDragon 登记为 Tier B/C client mirror；
+- 已将 League Wiki 登记为 Tier C maintained community wiki；
+- 当前 59 个 Riot 官网确认基线需要与 arammayhem 199 当前池做完整差异对比。
+
+新增开放问题：
+
+- arammayhem 199 当前池与 Riot 官网 59 基线的差异列表；
+- arammayhem 的完整效果文本、中文名、统计字段是否可稳定抓取；
+- arammayhem 的数据来源和更新机制。
+
+需要实验：
+
+- 暂无。下一步是抓取 arammayhem 当前池列表并与 CDragon / Riot 基线对齐。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：未匹配与 CDragon 候选复核
 
 资料来源：
