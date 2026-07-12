@@ -1,5 +1,39 @@
 # Research Log
 
+---
+
+日期：2026-07-13
+
+研究主题：ARAM Mayhem 当前海克斯字段和效果对齐
+
+资料来源：
+
+- `https://arammayhem.com/augments/`
+- `https://arammayhem.com/zh-cn/augments/`
+- 每个 live 海克斯的英文/中文详情页
+
+结论：
+
+- 已新增 `augments/AramMayhem_AlignedDatabase.md`；
+- 已新增 `augments/AramMayhem_AlignedData.csv`；
+- 当前 live 池采集到 199 个：银色 56、金色 74、棱彩 69；
+- 199 条均已对齐英文名、中文名、英文效果、中文效果、稀有度、来源 URL；
+- `One Trick Pony` 和 `Rejuvenation` 当前无胜率、登场率、页面版本号，字段保留为空；
+- 部分 Ability Augment 文本仍含运行时变量占位，需要客户端 tooltip 或实战截图继续展开。
+
+新增开放问题：
+
+- ARAM Mayhem 中文页文本是否与国服官方客户端完全一致；
+- 运行时变量占位如何映射到具体英雄技能、等级和数值；
+- 199 条 live 池中哪些与 Riot 官网 59 条存在 tier/status 冲突。
+
+需要实验：
+
+- 用 CommunityDragon stringtable 和正式服客户端 tooltip 复核 Ability Augment 占位文本；
+- 抽样进入游戏或使用真机浏览器/客户端截图确认 One Trick Pony、Rejuvenation 的当前状态。
+
+知识库是否更新：是。
+
 用于记录每日研究进度。
 
 格式：
