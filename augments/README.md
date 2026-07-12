@@ -5,6 +5,7 @@
 | File | Purpose |
 |---|---|
 | `Database.md` | 当前主数据库，人类可读版 |
+| `HistoricalDatabase.md` | 历史海克斯库：已移除、旧版本、待复核、转换来源 |
 | `OfficialSourceIndex.md` | Riot 官网来源索引 |
 | `AbilityAugments.md` | Ability Augments 专用索引 |
 | `QuestAugments.md` | Quest Augments 专用索引 |
@@ -16,3 +17,9 @@
 2. 补正式服客户端 tooltip；
 3. 补国服官方中文名；
 4. 标注 source、patch、confidence、current_status。
+
+查询规则：
+
+- 当前版本分析优先读 `Database.md`。
+- 历史来源、旧视频/旧攻略对照、已移除条目读 `HistoricalDatabase.md`。
+- 官网原始采集依据读 `OfficialSourceIndex.md`。

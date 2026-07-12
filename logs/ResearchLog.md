@@ -41,6 +41,35 @@
 
 日期：2026-07-13
 
+研究主题：历史海克斯数据库拆分
+
+资料来源：
+
+- `augments/OfficialSourceIndex.md`
+- Riot 26.12 Removed Augments
+- Riot 25.21-26.13 Mayhem 相关补丁记录
+
+结论：
+
+- 已新增 `augments/HistoricalDatabase.md`；
+- 将历史条目分为 Removed、LegacyUnverified、Removed with historical detail、Converted/Provenance、Legacy Trait Sets；
+- 当前主库 `augments/Database.md` 继续作为当前版本分析入口，历史条目不混入主库。
+
+新增开放问题：
+
+- LegacyUnverified 条目中哪些仍在当前正式服池内；
+- Void Immolation / Quest: Void Immolation、Twin Fire / Twinfire 等疑似改名或合并条目的当前客户端名。
+
+需要实验：
+
+- 无。下一步应先做客户端 tooltip/当前池采集。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：项目文档架构重组
 
 资料来源：
