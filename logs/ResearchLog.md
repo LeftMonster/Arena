@@ -41,6 +41,39 @@
 
 日期：2026-07-13
 
+研究主题：当前海克斯中文名与候选漏收项检索
+
+资料来源：
+
+- `augments/OfficialSourceIndex.md`
+- CommunityDragon `cherry-augments.json` English / zh_cn
+- CommunityDragon `game/zh_cn/data/menu/en_us/lol.stringtable.json`
+
+结论：
+
+- 已新增 `augments/CurrentAugments_CN_Effects.md`；
+- 当前 Riot 59 个官网确认条目中，58 个匹配到 CDragon 中文客户端名；
+- `One Trick Pony` 暂未在 CDragon 名称表中直接匹配；
+- 发现 18 个 CDragon `id 2000-2149` 范围内、但不在当前 Riot 59 条中的候选，后续需要判断是历史残留、重命名还是漏收。
+
+新增开放问题：
+
+- `Pursuit of Power`：Riot 26.12 列为 Silver，但 CDragon rarity 显示 Gold；
+- `Terror`：Riot 26.12 列为 Prismatic，但 CDragon rarity 显示 Gold；
+- `Double Defense` 是否对应 CDragon 的 `Bolstered / 加固护盾`；
+- `One Trick Pony` 的客户端名称和 ID；
+- CDragon 候选 18 条中哪些实际仍在当前池内。
+
+需要实验：
+
+- 暂无。下一步优先做客户端 tooltip 解析/实机截图复核。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：Meraki lolstaticdata 数据源评估
 
 资料来源：
