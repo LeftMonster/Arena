@@ -7,6 +7,7 @@
 | `Database.md` | 当前主数据库，人类可读版 |
 | `AramMayhem_AlignedDatabase.md` | ARAM Mayhem 当前 199 个 live 海克斯的英文/中文名、效果、统计字段和来源对齐表 |
 | `AramMayhem_AlignedData.csv` | 与 `AramMayhem_AlignedDatabase.md` 同源的机器可读 CSV |
+| `AramMayhem_NameEffects.md` | 当前 199 个海克斯的“名字 + 中英效果”简表，适合人工快速浏览 |
 | `CurrentAugments_CN_Effects.md` | 当前 59 个官网确认海克斯的中文名、简要效果和 CDragon 对照 |
 | `CandidateReview.md` | CDragon 候选、未匹配项、rarity 冲突项的复核表 |
 | `HistoricalDatabase.md` | 历史海克斯库：已移除、旧版本、待复核、转换来源 |
