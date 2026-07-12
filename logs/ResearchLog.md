@@ -4,6 +4,38 @@
 
 日期：2026-07-13
 
+研究主题：瑞兹 Overloaded Ability Augment 漏排修正
+
+资料来源：
+
+- `augments/AramMayhem_AlignedData.csv`
+- `skill/AbilityClass.md`
+- 用户指出：瑞兹存在“除 E 之外使用其他技能重置 E 冷却”的技能强化海克斯线索
+
+结论：
+
+- 漏点不在数据库缺失，而在推荐时跳过了 Ability Augment 优先级；
+- `Overloaded / 超负荷` 已在当前海克斯库中，效果为“使用另一个技能会重置【所选技能】技能的冷却时间”；
+- 如果 Overloaded 映射到瑞兹 E，则它应作为瑞兹首选海克斯；
+- 已新增 `heroes/Ryze.md` 固定该分析；
+- 已在 `augments/AbilityAugments.md` 加入 Overloaded → Ryze E 的高优先级映射候选。
+
+新增开放问题：
+
+- 当前正式服 Overloaded 是否稳定映射到瑞兹 E；
+- Q/W/R 是否都能触发 E 冷却重置；
+- Overloaded 与大法师、尤里卡、炼狱导管是否存在冷却收益溢出或质变。
+
+需要实验：
+
+- EXP-RYZE-001 到 EXP-RYZE-003。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：Event Tree 与 Source 外部补充文档迁移
 
 资料来源：
