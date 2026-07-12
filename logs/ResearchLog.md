@@ -41,6 +41,38 @@
 
 日期：2026-07-13
 
+研究主题：未匹配与 CDragon 候选复核
+
+资料来源：
+
+- CommunityDragon `cherry-augments.json`
+- CommunityDragon zh_cn `cherry-augments.json`
+- CommunityDragon en_us / zh_cn `lol.stringtable.json`
+- 当前 `augments/CurrentAugments_CN_Effects.md`
+
+结论：
+
+- `Double Defense` 基本可对应 CDragon `DoubleDefense / Bolstered / 加固护盾`；
+- `Pursuit of Power / 威能之追求` 中文名和 CDragon ID 可确认，但 rarity 与 Riot 26.12 不一致；
+- `Terror / 惊惧` 中文名和 CDragon ID 可确认，但 rarity 与 Riot 26.12 不一致；
+- `One Trick Pony` 在 CDragon 名称表和 stringtable 精确搜索中仍未命中；
+- 已新增 `augments/CandidateReview.md` 记录 18 个候选项的初步分类。
+
+新增开放问题：
+
+- `One Trick Pony` 是否已改名、被客户端隐藏，或 Riot 官网列表与当前客户端不一致；
+- 候选项中哪些是当前可用，哪些只是历史残留。
+
+需要实验：
+
+- 需要正式服客户端实际池/tooltip 采集；若采集受限，可启用真机/去特征化浏览器方案。
+
+知识库是否更新：是。
+
+---
+
+日期：2026-07-13
+
 研究主题：中文二级来源检索策略
 
 资料来源：
