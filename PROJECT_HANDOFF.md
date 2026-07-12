@@ -236,19 +236,32 @@ Never mix these.
 
 ------------------------------------------------------------------------
 
-# 10. Current Files
+# 10. Current Structure
 
-Skill
+Root:
 
-Glossary
+- `README.md`：项目入口
+- `CONTRIBUTING.md`：研究规范
+- `SOURCES.md`：资料来源入口
+- `TERMINOLOGY.md`：术语统一
+- `Roadmap.md`：研究路线
 
-Arena Augments Database
+Research folders:
 
-Roadmap
+- `skill/`：机制模型
+- `augments/`：海克斯数据库与来源索引
+- `heroes/`：英雄档案
+- `experiments/`：实验记录
+- `standards/`：可信度与证据标准
+- `logs/`：研究日志、开放问题、版本日志
 
-Hero Archive
+Important current files:
 
-Keep version history.
+- `augments/Database.md`
+- `augments/OfficialSourceIndex.md`
+- `skill/ApplyCount.md`
+- `skill/EventTree.md`
+- `heroes/_HeroTemplate.md`
 
 ------------------------------------------------------------------------
 

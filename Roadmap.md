@@ -1,19 +1,85 @@
-# Roadmap v7 增量更新
+# Roadmap
 
-## 新增研究阶段
+当前项目目标：建立可追溯、可查询、可实验复现的 LoL ARAM: Mayhem / Arena-style Augments 机制数据库。
 
-### Ability Class
+---
+
+# Phase 1: Official Source Baseline
+
+状态：进行中。
 
 目标：
 
-先建立英雄能力分类，再进入具体英雄研究。
+- 整理 Riot 官网补丁说明和开发者文章；
+- 建立官方源索引；
+- 区分当前确认池、已移除池、历史待复核池。
+
+当前文件：
+
+- `augments/OfficialSourceIndex.md`
+- `augments/Database.md`
+
+---
+
+# Phase 2: Client Tooltip Database
+
+状态：下一步。
+
+目标：
+
+- 补当前正式服完整 tooltip；
+- 补国服官方中文名；
+- 补 tier、augment type、current status；
+- 把官网只有名称的条目补成可查询记录。
+
+---
+
+# Phase 3: Ability Class And Ability Augments
+
+状态：待开始。
 
 研究顺序：
 
-Ability Class → Ability Augments → Quest Augments → Event Tree → 海克斯
-→ 装备 → 实验 → Hero Archive
+Ability Class → Ability Augments → Quest Augments → Event Tree → Normal Augments → Items → Experiments → Hero Archive
 
 原因：
 
-不同 Ability Class 的英雄应采用不同的分析框架，而不是统一套用 On-Hit
-模型。
+不同 Ability Class 的英雄应采用不同分析框架，不能统一套用 On-Hit 模型。
+
+---
+
+# Phase 4: Mechanism Models
+
+状态：进行中。
+
+当前模型：
+
+- `skill/ApplyCount.md`
+- `skill/EventTree.md`
+
+后续模型：
+
+- Hit vs Apply
+- Spellblade
+- Cooldown Reset
+- Buff / Debuff
+- Revive
+
+---
+
+# Phase 5: Hero Archive
+
+状态：待开始。
+
+优先英雄：
+
+- Master Yi
+- Gangplank
+- Ryze
+- Corki
+- Zilean
+- Ashe
+
+模板：
+
+- `heroes/_HeroTemplate.md`

@@ -427,7 +427,7 @@
 
 已新增独立源索引：
 
-- `Augments_Official_Source_Index.md`
+- `OfficialSourceIndex.md`
 
 用途：
 
@@ -473,7 +473,7 @@
 
 ## v0.2
 
-- 新增 `Augments_Official_Source_Index.md`；
+- 新增 `OfficialSourceIndex.md`；
 - 从 Riot 官网补丁说明整理 25.21、25.22、25.23、25.24、26.3、26.8、26.9、26.10、26.11、26.12、26.13 的 Mayhem augment 相关记录；
 - 建立 26.13 当前 Riot 官网确认池、26.12 移除池、历史出现但当前需客户端复核池；
 - 明确 Riot 官网不提供完整当前 tooltip 数据，后续必须接正式服客户端文本或维护数据库补全。

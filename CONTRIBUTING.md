@@ -1,4 +1,4 @@
-# Data Collection Protocol v1（数据采集规范）
+# Contributing / Data Collection Protocol（研究规范）
 
 > 项目：LoL Arena Mechanism Engine
 >
@@ -118,13 +118,14 @@
 
 每位英雄建立永久档案。
 
-建议目录：
+建议位置：
 
-HeroName/
+- 英雄档案：`heroes/<HeroName>.md`
+- 英雄实验：`experiments/EXP-YYYYMMDD-XXX.md`
+- 证据与可信度规则：`standards/`
+- 开放问题与日志：`logs/`
 
-├── Hero.md ├── AbilityAugments.md ├── QuestAugments.md ├── EventTree.md
-├── Build.md ├── ChampionTags.md ├── Experiments.md ├── Evidence.md ├──
-Changelog.md └── OpenQuestions.md
+英雄档案结构参考：`heroes/_HeroTemplate.md`
 
 ------------------------------------------------------------------------
 
